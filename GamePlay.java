@@ -23,7 +23,7 @@ public class GamePlay {
 	}
 	
 	// Makes the optimal move. The strategy is to have the opponent pick up a coin when the number of coins is a multiple of 3.
-	public int professorPicks() {
+	public int systemPicks() {
 		
 		if ((numberOfCoins - 1) % 3 == 0) {
 			pickUpCoins(1);
@@ -65,9 +65,9 @@ public class GamePlay {
 			int coinsPickedUp = scanner.nextInt();
 			gamePlay.pickUpCoins(coinsPickedUp);
 			System.out.println("There are " + gamePlay.getNumberOfCoins() + " coins on the table.");
-			System.out.println("The system picked up " + gamePlay.professorPicks());	
+			System.out.println("The system picked up " + gamePlay.systemPicks());	
 		}
-		// As the game is mathematically rigged, we can hard code some victory bragging
+		
 		System.out.println("YOU LOSE AND THE SYSTEM WINS.");
 		
 	}
