@@ -45,7 +45,7 @@ public class GamePlay {
 	
 	// Displays the rules of the game
 	public void introduction() {
-		System.out.println("WELCOME TO THE EVIL PROFESSOR'S DUNGEON.");
+		System.out.println("WELCOME TO Coin Puzzle Simulation .");
 		System.out.println("1. There are 48 coins on a table. You and system take turns picking up either one or two coins. You move first.");
 		System.out.println("2. You can't skip your turn, or pick up more than two coins. The final total value of the coins you've picked up doesn't matter.");
 		System.out.println("3. The object of the game is to pick up the last coin. You can assume, always, that the system plays optimally.");
